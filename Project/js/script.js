@@ -9,7 +9,8 @@ const message = document.querySelector(".message");
 const score = document.querySelector(".score");
 const highscore = document.querySelector(".highscore");
 
-const correctNumber = 13;
+const correctNumber = Math.trunc(Math.random() * 20 + 1);
+
 let point = 10;
 
 function checkGuess(guess) {

@@ -1,3 +1,29 @@
 body {
   background-color: antiquewhite;
+  position: relative;
+  /* opacity: 0.4; */
 }
+
+.modal {
+  width: 60%;
+  height: 60vh;
+  margin: auto;
+  background-color: azure;
+  position: absolute;
+  display: none;
+  top: 25%;
+  left: 20%;
+  border-radius: 1rem;
+  z-index: 999;
+}
+
+.modal h1 {
+  text-align: center;
+}
+
+/* .modal .close {
+  position: absolute;
+  display: inline-block;
+  top: 20;
+  right: 20;
+} */
